@@ -15,7 +15,7 @@ Application.ScreenUpdating = False
     Sheets(1).Select
     Range("A2:F2").Delete
     
-    Range("G5") = "Gravação ok"
+    Range("G5") = "GravaÃ§Ã£o ok"
     MsgBox "Processo Concluido...", vbOKOnly, "Concluido"
 Application.ScreenUpdating = True
 
@@ -35,7 +35,7 @@ Application.ScreenUpdating = False
     ActiveCell.Offset(1, 0).Select
     ActiveSheet.Paste
     
-    'Endereço
+    'EndereÃ§o
     
     Sheets(1).Select
     Range("A5").Copy
