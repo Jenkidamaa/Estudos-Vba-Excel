@@ -1,0 +1,27 @@
+Option Explicit
+
+Sub bt()
+
+    Dim w As Worksheet
+    Dim resultado As Long
+    Dim ultima As Range
+    
+    resultado = 0
+    Set w = Sheets(1)
+    Set ultima = w.Range("A1048500").End(xlUp)
+    ultima.Select
+    
+    Do Until resultado >= 2200
+    
+        resultado = resultado + ActiveCell.Value
+        ActiveCell.Offset(-1, 0).Select
+        
+    
+    Loop
+    
+    MsgBox "O valor da soma " & resultado
+    w.Range("C2").Value = "SOMA " & resultado
+    
+    
+
+End Sub
