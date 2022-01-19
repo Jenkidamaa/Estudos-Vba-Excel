@@ -6,7 +6,7 @@ Dim W As Worksheet 'Manipula as planilhas
 Dim vNome As String ' Nome do arquivo
 Dim vArq As String
 Dim vcaminho As String  'Caminho onde vamos salvar / apagar pastas
-Dim vExisteArq As String 'Verificar se h· arquivos
+Dim vExisteArq As String 'Verificar se h√° arquivos
 Application.ScreenUpdating = False
 
 vcaminho = "C:\temp\teste\" 'Altera esse caminho para a pasta raiz desejada
@@ -20,7 +20,7 @@ If vExisteArq <> "" Then
 
     Kill vcaminho & "*.*" 'Elimina todos os arquivos *.*
     RmDir vcaminho 'Remove diretorio
-    Dir vcaminho 'Checar se h· arquivos. Liberar a pasta
+    Dir vcaminho 'Checar se h√° arquivos. Liberar a pasta
     
 End If
 
@@ -41,7 +41,7 @@ For Each W In Sheets
     vArq = Dir(vcaminho & vNome & ".xlsx")
     
     If vArq = "" Then
-        Application.StatusBar = "Arquivo" & vNome & "n„o existe na pasta"
+        Application.StatusBar = "Arquivo" & vNome & "n√£o existe na pasta"
     End If
         
     W.Select
