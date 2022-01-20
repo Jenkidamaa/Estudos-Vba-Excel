@@ -14,7 +14,7 @@ ErrorHandler:
         Case 13 'Type mismatch
             Resume Next
         Case 1004 'Locked cell, protected sheet
-            MsgBox "Cell is locked. Try again.", vbCritical, cell.Address
+        MsgBox "Cell is locked. Try again.", vbCritical, cell.Address 'cel trancada
             Exit Sub
         Case Else
             ErrMsg = Error(Err.Number)
