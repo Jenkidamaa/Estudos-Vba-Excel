@@ -3,7 +3,7 @@ Dim cmdDesbloquear_Click()
 Dim PlanilhaAtual As Variant
 Dim Senha As String
 Dim w As worksheet
-
+'a
 Senha = inputbox("Digite uma senha: ", vbOKonly,"Atenção")
 ponto_saida:
   On Error Resume Next
