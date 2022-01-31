@@ -47,9 +47,7 @@ For Each W In Sheets
     W.Select
     W.Copy
     
-    ActiveWorkbook.SaveAs Filename:=vcaminho & vNome, _
-                          FileFormat:=xlOpenXMLWorkbook, _
-                          CreateBackup:=False
+    ActiveWorkbook.SaveAs Filename:=vcaminho & vNome,  FileFormat:=xlOpenXMLWorkbook, CreateBackup:=False
     ActiveWorkbook.Close 'Fecha a nova pasta de trabalho
     
     
