@@ -3,7 +3,7 @@ Option Explicit
 Private Sub btExecuta_click()
 
 Dim W As Worksheet 'Manipula as planilhas
-Dim vNome As String ' Nome do arquivo
+Dim vNome As String ' Nome do arquiv
 Dim vArq As String
 Dim vcaminho As String  'Caminho onde vamos salvar / apagar pastas
 Dim vExisteArq As String 'Verificar se há arquivos
