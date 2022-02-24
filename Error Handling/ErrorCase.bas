@@ -1,5 +1,4 @@
 Dim cmdDesbloquear_Click()
-
 Dim PlanilhaAtual As Variant
 Dim Senha As String
 Dim w As worksheet
