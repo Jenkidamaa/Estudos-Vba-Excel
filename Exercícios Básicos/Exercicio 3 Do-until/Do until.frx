@@ -12,8 +12,7 @@ Sub bt()
     Do Until resultado >= 2200
     
         resultado = resultado + ActiveCell.Value
-        ActiveCell.Offset(-1, 0).Select
-        
+        ActiveCell.Offset(-1, 0).Select      
     
     Loop
     
