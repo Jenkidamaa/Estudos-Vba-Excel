@@ -1,6 +1,5 @@
 Option Explicit
 Sub bt()
-
     Dim w As Worksheet
     Dim resultado As Long
     Dim ultima As Range
