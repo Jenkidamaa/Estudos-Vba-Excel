@@ -4,7 +4,6 @@ Sub Bt_ex()
     Dim w As Worksheet
     Dim ultima_cel As Range
     Dim resultado As Long
-    
     resultado = 0
     Set w = Sheets(1)
     Set ultima_cel = w.Range("A1048576").End(xlUp)
