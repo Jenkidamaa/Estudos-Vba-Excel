@@ -1,6 +1,5 @@
 Option Explicit
 Sub Bt_ex()
-
     Dim w As Worksheet
     Dim ultima_cel As Range
     Dim resultado As Long
